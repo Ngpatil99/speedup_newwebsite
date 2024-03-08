@@ -88,8 +88,7 @@ function Footer() {
             <div className="row footer-icon py-3">
               <div className="col-lg-6 col-md-8 col-sm-12">
                 <p>
-                  Copyright © 2023 Saga. Designed & Developed by MotivoWeb only
-                  on Envato Market.
+                  Copyright © 2024. Designed & Developed by Speedupinfotech
                 </p>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-12">

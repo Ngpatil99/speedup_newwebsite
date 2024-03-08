@@ -7,11 +7,11 @@ function Ourmentors() {
       <div className="main-ourbenifit">
         <div className="benefits-outer text-center px-5 mx-5">
           <div className="row position-relative py-5 d-flex flex-column align-items-center">
-            <div className="col-12 position-relative benefit-header py-3 col-12">
-              <div className="benefit-underline">
-                <h6 className="benefit">OUR MENTORS</h6>
-              </div>
+          <div className="position-relative ourwork-header py-3">
+            <div className="benefit-underline me-5">
+              <h6 className="benefit">OUR MENTORS </h6>
             </div>
+          </div>
             <div className="col-12">
               <h2 className="fs-2 text-white">
                 Our Exceptional Mentors <br /> Shaping Future Top-Notch
@@ -46,11 +46,7 @@ function Ourmentors() {
                     Our mentors aren't just educators; they are top developers
                     who have honed their skills in real-world scenarios.{" "}
                   </p>
-                  <div className="fs-2 mt-3 benefit-arrow-container">
-                    <div className="arrow-scroller">
-                      <ArrowRight color="white" size={30} />
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -65,7 +61,7 @@ function Ourmentors() {
                   />
                 </div>
                 <div className="benefit-link col-12 p-3 text-start rounded-4">
-                  <h3 className="text-light">Neha Patil</h3>
+                  <h3 className="text-light">Shivani Wankhede</h3>
                   <p className="text-light">Software Developer</p>
 
                   <p className=" text-light">
@@ -73,11 +69,7 @@ function Ourmentors() {
                     you with invaluable insights and practical knowledge to
                     excel in the competitive world of IT.
                   </p>
-                  <div className="fs-2 mt-3 benefit-arrow-container">
-                    <div className="arrow-scroller">
-                      <ArrowRight color="white" size={30} />
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -99,11 +91,7 @@ function Ourmentors() {
                     Your journey at SpeedUp Infotech is guided by mentors who
                     are committed to your success.{" "}
                   </p>
-                  <div className="fs-2 mt-3 benefit-arrow-container">
-                    <div className="arrow-scroller">
-                      <ArrowRight color="white" size={30} />
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>

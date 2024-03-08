@@ -10,6 +10,7 @@ function Blog() {
           </div>
         </div>
         <div className="col-lg-12">
+
           <h2 className="fs-2 text-white text-center py-2">
             Enjoy our incredible recently <br />
             completed projects.

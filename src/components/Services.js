@@ -9,7 +9,7 @@ function Services() {
         <div className="row position-relative py-2 d-flex flex-column align-items-center">
           <div className="position-relative ourwork-header py-3">
             <div className="ourwork-underline me-5">
-              <h5 className="ourwork">OUR SERVICES</h5>
+              <h6 className="ourwork">OUR SERVICES</h6>
             </div>
           </div>
           <div className="col-lg-12">
@@ -112,12 +112,6 @@ function Services() {
                   We are best in innovations with the designs. Make sure your
                   website looks rich and expressive with Speedup.
                 </p>
-
-                <div className="readmore move-right">
-                  <a href="#">
-                    Read More <ArrowRight color="white" size={20} />
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -206,12 +200,6 @@ function Services() {
                   Step in to the digital world by launching your own dynamic
                   website. With the Cravita ensure your digital presence.
                 </p>
-
-                <div className="readmore move-right">
-                  <a href="#">
-                    Read More <ArrowRight color="white" size={20} />
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -300,12 +288,6 @@ function Services() {
                   Android is most popular OS with maximum market share. Let your
                   smartphone be intelligent enough to automate your work.
                 </p>
-
-                <div className="readmore move-right">
-                  <a href="#">
-                    Read More <ArrowRight color="white" size={20} />
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -397,12 +379,6 @@ function Services() {
                   We provide Quality Manpower from Fresher to Experienced as per
                   the client requirement
                 </p>
-
-                <div className="readmore move-right">
-                  <a href="#">
-                    Read More <ArrowRight color="white" size={20} />
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -491,12 +467,6 @@ function Services() {
                   Step in to the digital world by launching your own dynamic
                   website. With the Speedup ensure.
                 </p>
-
-                <div className="readmore move-right">
-                  <a href="#">
-                    Read More <ArrowRight color="white" size={20} />
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -585,12 +555,6 @@ function Services() {
                   As you know, companies are 100% reliant on technology. We have
                   expertise in Cloud Migration, Cloud Optimization.
                 </p>
-
-                <div className="readmore move-right">
-                  <a href="#">
-                    Read More <ArrowRight color="white" size={20} />
-                  </a>
-                </div>
               </div>
             </div>
           </div>

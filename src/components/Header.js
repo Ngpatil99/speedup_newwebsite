@@ -64,7 +64,7 @@ const Header = ({ children }) => {
                   </p>
                 </NavLink>
               </li>
-              <li className="nav-item">
+              <li className="nav-item servicesmenu">
                 <NavLink
                   to="/services"
                   className="nav-link homeclass"

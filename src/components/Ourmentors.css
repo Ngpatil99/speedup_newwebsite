@@ -16,13 +16,14 @@
 }
 
 .benefit-header{
-    width: 120px;
+    width: 200px;
 }
 
 .benefit{
     position: absolute;
     bottom: -2px;
     color: white;
+    width: 120px;
 }
 .benefit-underline{
     position: relative;

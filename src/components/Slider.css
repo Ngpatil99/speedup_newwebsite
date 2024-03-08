@@ -67,13 +67,6 @@
     display: none;
 }
 
-.move-up:hover {
-
-    color: crimson;
-    transition: all .2s;
-    transform: translateY(-10px);
-
-}
 
 
 .move-up {
