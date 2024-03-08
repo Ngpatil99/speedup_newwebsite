@@ -1,80 +1,84 @@
-.main-ourbenifit{
-    background-color: rgb(30,38,54);
+.main-ourbenifit {
+    background-color: rgb(30, 38, 54);
     padding-top: 100px;
 
 }
 
-.main-ourbenifit p{
-    color: rgba(255,255,255,.6);
-  }
+.main-ourbenifit p {
+    color: rgba(255, 255, 255, .6);
+}
 
-.benefits-outer{
-    background-color: #101828;;
+.benefits-outer {
+    background-color: #101828;
+    ;
     border-radius: 25px;
     transition: all 1s;
     padding-bottom: 200px;
 }
 
-.benefit-header{
+.benefit-header {
     width: 200px;
 }
 
-.benefit{
+.benefit {
     position: absolute;
     bottom: -2px;
     color: white;
     width: 120px;
 }
-.benefit-underline{
+
+.benefit-underline {
     position: relative;
     height: 10px;
     width: 112px;
-    background-image: linear-gradient(to right,red,black);
-   
-    
+    background-image: linear-gradient(to right, red, black);
+
+
 }
 
-.benefit-bg-img{
+.benefit-bg-img {
     position: relative;
     top: 0;
     transition: all .7s;
     background-color: white;
 }
-.profile-img{
+
+.profile-img {
     width: 80%;
     height: 300px;
     padding: 10px;
 }
 
-.benefit-link{
+.benefit-link {
     position: absolute;
-    background-color:#1e2636;
+    background-color: #1e2636;
     bottom: -170px;
-    left:15%;
+    left: 15%;
     transition: all .7s;
-    
-}
-.card-content:hover .benefit-bg-img{
-    transition: all .7s;
-    top: -20px;
-  
+
 }
 
-.card-content:hover .benefit-link{
-    background-color:red;
+.card-content:hover .benefit-bg-img {
+    transition: all .7s;
+    top: -20px;
+
+}
+
+.card-content:hover .benefit-link {
+    background-color: red;
     transition: all .7s;
     bottom: -120px;
 }
 
-.benefit-arrow-container{
+.benefit-arrow-container {
     width: 60px;
     height: 20px;
     position: relative;
-   
+
     overflow: hidden;
 }
 
-.arrow-scroller{
+.arrow-scroller {
     /* background-color: brown; */
     display: flex;
     align-items: center;
@@ -83,15 +87,16 @@
     left: 10px;
 }
 
-.benefit-arrow{
+.benefit-arrow {
     margin-top: 14px;
-  
-    background-color: white;   
+
+    background-color: white;
 
 }
+
 .arrow-scroller:hover {
     transition: .5s;
-    left:0px
+    left: 0px
 }
 
 @media screen and (max-width:767px) {
@@ -107,34 +112,41 @@
         right: 22px;
 
     }
+
     .profile-img {
         width: 80%;
         height: 170px;
         padding: 10px;
     }
+
     .benefit-bg-img {
         position: relative;
         top: -165px;
         transition: all .7s;
         background-color: white;
     }
+
     .benefit-link {
         position: absolute;
-        bottom: -125px;
-        height: 331px;
+        bottom: -30px;
+        height: 262px;
         width: 208px;
         left: -12%;
     }
-    .benefit-link h3{
+
+    .benefit-link h3 {
         font-size: 20px;
     }
-    .benefit-link h4{
+
+    .benefit-link h4 {
         font-size: 15px;
     }
+
     .benefits-outer {
-       
-        height: 2361px;
+
+        height: 2248px;
     }
+
     .main-ourbenifit {
         padding-top: 57px;
     }

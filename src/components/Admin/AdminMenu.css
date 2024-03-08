@@ -30,10 +30,10 @@ body {
     text-decoration: none;
     padding: 10px;
   }
-  
-  .nav-link:hover {
-    background-color: #333; /* Hover effect */
-  }
+  /* Hover effect */
+  .navmenu:hover {
+    background-color: #333; 
+  } 
   
   .welcome-message {
     text-align: center;

@@ -16,16 +16,16 @@ const AdminMenu = () => {
       <div className="admin-sidebar">
         <div className="list-group">
           <h4>Admin Panel</h4>
-          <NavLink to="/admin/users" className="nav-link">
+          <NavLink to="/admin/users" className="navmenu">
             Users
           </NavLink>
-          <NavLink to="/admin/blogs" className="nav-link">
+          <NavLink to="/admin/blogs" className="navmenu">
             Blogs
           </NavLink>
-          <NavLink to="/admin/careerblock" className="nav-link">
+          <NavLink to="/admin/careerblock" className="navmenu">
             Career Block
           </NavLink>
-          <NavLink to="/admin/lifeline" className="nav-link">
+          <NavLink to="/admin/lifeline" className="navmenu">
             Lifeline at SpeedUp Block
           </NavLink>
         </div>

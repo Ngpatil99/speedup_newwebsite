@@ -82,12 +82,12 @@ const Header = ({ children }) => {
                 <div className="dropdown-list shadow-lg pe-5 ps-2">
                   <ul>
                     <li className="nav-link">
-                      <a href="#" className="nav-link homeclass fw-bold">
+                      <NavLink to="/websitedev" className="nav-link homeclass fw-bold">
                         <p className="d-flex flex-column menu-text">
                           <span>Logo Design</span>
                           <span>Logo Design</span>
                         </p>
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="nav-link">
                       <a href="#" className="nav-link homeclass fw-bold">
