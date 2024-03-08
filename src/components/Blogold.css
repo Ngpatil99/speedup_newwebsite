@@ -1,0 +1,239 @@
+.main-blog-bg {
+  background-color: rgb(30, 38, 54);
+
+}
+
+.blog-card-row {
+  margin: 0px 60px !important;
+
+}
+
+.benefit-blog {
+  position: absolute;
+  bottom: -6px;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.benefit-underline-blog {
+  position: relative;
+  height: 10px;
+  width:50px;
+  background-image: linear-gradient(to right, red, black);
+
+}
+
+.our_expertise {
+  color: orangered;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.card {
+  /* border-radius: 20px; */
+}
+
+.bloglink{
+  background-color: none !important;
+}
+.card1-bg,
+.card2-bg,
+.card3-bg,
+.card4-bg,
+.card5-bg,
+.card6-bg,
+.card7-bg,
+.card8-bg {
+  width: 25rem;
+}
+
+.lower_cards {
+  margin-top: 100px;
+
+}
+
+.lower_cards2 {
+  margin-top: -32px;
+}
+
+.text_title {
+  color: black;
+}
+
+.text {
+  color: #6a7c92;
+}
+
+
+.card1_container:hover .text_title,
+.card2_container:hover .text_title,
+.card3_container:hover .text_title,
+.card4_container:hover .text_title,
+.card5_container:hover .text_title,
+.card6_container:hover .text_title,
+.card7_container:hover .text_title,
+.card8_container:hover .text_title {
+  color: white;
+}
+
+.card1_container:hover .text,
+.card2_container:hover .text,
+.card3_container:hover .text,
+.card4_container:hover .text,
+.card5_container:hover .text,
+.card6_container:hover .text,
+.card7_container:hover .text,
+.card8_container:hover .text {
+  color: white;
+}
+
+.card1_container:hover .card1-bg {
+  height: 90%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../public/images/service02.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  transition: .5s cubic-bezier(.25, .8, .25, 1) 0s;
+
+}
+
+
+.card2_container:hover .card2-bg {
+  height: 80%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../public/images/service02.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  transition: .5s cubic-bezier(.25, .8, .25, 1) 0s;
+}
+
+.card3_container:hover .card3-bg {
+  height: 90%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../public/images/service02.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  transition: .5s cubic-bezier(.25, .8, .25, 1) 0s;
+  /* transform: translate(-50%, -50%); */
+}
+
+.card4_container:hover .card4-bg {
+  height: 80%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../public/images/service02.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  transition: .5s cubic-bezier(.25, .8, .25, 1) 0s;
+  /* transform: translate(-50%, -50%); */
+}
+
+.card5_container:hover .card5-bg {
+
+  height: 80%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../public/images/service02.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  transition: .5s cubic-bezier(.25, .8, .25, 1) 0s;
+  /* transform: translate(-50%, -50%); */
+}
+
+.card6_container:hover .card6-bg {
+
+  height: 80%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../public/images/service02.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  transition: .5s cubic-bezier(.25, .8, .25, 1) 0s;
+  /* transform: translate(-50%, -50%); */
+}
+
+.card7_container:hover .card7-bg {
+
+  height: 80%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../public/images/service02.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  transition: .5s cubic-bezier(.25, .8, .25, 1) 0s;
+  /* transform: translate(-50%, -50%); */
+}
+
+.card8_container:hover .card8-bg {
+
+  height: 80%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../public/images/service02.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  transition: .5s cubic-bezier(.25, .8, .25, 1) 0s;
+  /* transform: translate(-50%, -50%); */
+}
+
+.card1_container:hover .zoom-out,
+.card2_container:hover .zoom-out,
+.card3_container:hover .zoom-out,
+.card4_container:hover .zoom-out,
+.card5_container:hover .zoom-out,
+.card6_container:hover .zoom-out,
+.card7_container:hover .zoom-out,
+.card8_container:hover .zoom-out {
+  transition: all 1s;
+  transform: scale(.7);
+}
+
+.blogreadmore button{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: none;
+  background-color:none !important;
+}
+
+
+@media screen and (max-width:767px) {
+  .lower_cards {
+    margin-top: 25px;
+
+  }
+
+  .lower_cards2 {
+    margin-top: 25px;
+  }
+
+  .card1-bg,
+  .card2-bg,
+  .card3-bg,
+  .card4-bg,
+  .card5-bg,
+  .card6-bg,
+  .card7-bg,
+  .card8-bg {
+    margin: 10px auto;
+  }
+
+  .blog-card-row {
+    margin: 0px 0px !important;
+
+  }
+}
+
+
+.st0 {
+  fill: none;
+  stroke: #afb0b9;
+  stroke-width: 2;
+  stroke-linecap: square;
+  stroke-miterlimit: 10;
+}
+
+.st1 {
+  fill: none;
+  stroke: #494c63;
+  stroke-width: 2;
+  stroke-linecap: square;
+  stroke-miterlimit: 10;
+}

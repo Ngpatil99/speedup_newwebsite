@@ -1,0 +1,56 @@
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .error-text {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .error-text h1 {
+    font-size: 72px;
+    margin: 0;
+    color: #e03a3c;
+  }
+  
+  .error-text h2 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  .error-text p {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .error-text a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e03a3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .error-text a:hover {
+    background-color: #e03a3c;
+    transform: scale(1.1); /* Increase size on hover */
+  }
+  
+  
+  
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-10px);
+    }
+  }
+  

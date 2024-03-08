@@ -1,0 +1,79 @@
+.main-services {
+    background-color: rgb(30, 38, 54);
+    padding-top: 20px;
+
+}
+.divider{
+    border-bottom: 1px solid red;
+
+}
+.services-col{
+    padding: 20px;
+}
+
+.inner-text-services {
+    color: white;
+}
+
+.icon-wrap {
+    position: relative;
+    line-height: 50px;
+    font-size: 50px;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    background: rgba(231, 30, 30, 0.3);
+    border-radius: 50%;
+   
+}
+
+.icon-wrap svg {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    color: white;
+    
+}
+
+.readmore a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.move-right:hover{
+    
+    transition: all .5s;
+    transform : translateX(10px);
+}
+
+
+.benefit-service {
+    position: absolute;
+    bottom: -6px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.benefit-underline-service {
+    position: relative;
+    /* left: 500px; */
+    margin: 20px 0px;
+    height: 10px;
+    width: 50px;
+    background-image: linear-gradient(to right, red, black);
+
+}
+@media screen and (max-width:767px) {
+
+.main-services {
+    padding-top: 50px;
+    padding: 0px 20px;
+}
+.services-col{
+    padding: 30px 0px;
+}
+}

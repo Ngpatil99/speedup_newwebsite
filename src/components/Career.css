@@ -1,0 +1,83 @@
+.section-bg{
+    background-color: rgb(30, 38, 54);
+    padding: 20px;
+
+}
+
+
+.benefit-career {
+  position: absolute;
+  bottom: -6px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.benefit-underline-career {
+  position: relative;
+  height: 10px;
+  width: 5rem;
+  background-image: linear-gradient(to right, red, black);
+
+}
+.services .icon-box {
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 6px;
+    background-color: rgb(41, 50, 68);
+    transition: 0.3s;
+    position: relative;
+  }
+  
+  .services .icon-box:hover {
+    background: #2b2b2b;
+  }
+  
+  .services .icon-box i {
+    float: left;
+    color: #e03a3c;
+    font-size: 40px;
+    line-height: 0;
+  }
+  
+  .services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services .icon-box h4 a {
+    color: #fff;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  .services .icon-box h4 a:hover {
+    text-decoration: underline;
+  }
+  
+  .services .icon-box .icon-box:hover h4 a {
+    color: #e03a3c;
+  }
+  
+  .services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+  }
+  .offset-md-3 {
+    margin-left: 0%;
+    /* width: 0px; */
+  }
+   @media screen  and (max-width:767px){
+    .section-bg {
+      padding: 15px;
+    }
+    .services .icon-box p{
+      margin-left: 0px;
+    }
+    .services .icon-box h4 {
+      margin-left: 0px;
+      text-align: center;
+    }
+
+}
+  

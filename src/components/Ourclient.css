@@ -1,0 +1,43 @@
+
+.main-client {
+    background-color: rgb(30,38,54);
+}
+
+.main-client h5{
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+
+
+.slider div {
+    display: flex;
+    justify-content: space-around;
+}
+.slider div img{
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    height: 70px;
+    margin: 0px 20px;
+    /* width: 85%; */
+    aspect-ratio: 3/2;
+    opacity: 0.5;
+    transition: 0.3s;
+    filter: grayscale(100);
+    
+
+
+} 
+.slider div img:hover{
+    opacity: 1;
+    filter: none;
+}
+@media screen and (max-width:767px) {
+    .slider div img{
+        margin: 0px;
+        height: 33px;
+    }
+    
+}

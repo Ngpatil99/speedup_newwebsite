@@ -1,0 +1,30 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+    
+}
+.main_section{
+    height: auto;
+    width: 100%;
+    color: black;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.blog_poits{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.blog_paragraph{
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+} */

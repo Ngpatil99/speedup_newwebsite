@@ -1,0 +1,93 @@
+.main-ourwork-bg {
+    background-color: rgb(29, 37, 53);
+    color: white;
+}
+
+
+.ourwork-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourwork {
+    position: absolute;
+    /* font-size: 1.5rem; */
+    bottom: -6px;
+    color: white;
+    width: 17rem;
+}
+
+.ourwork-underline {
+    position: relative;
+    height: 10px;
+    width: 7rem;
+    background-image: linear-gradient(to right, red, black);
+
+
+}
+
+
+
+.ourwork-slider-img {
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+
+/* Zoom Out #1 */
+.hover03 figure img {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover03 figure:hover img {
+    transform: scale(1);
+    transform: scale(1);
+}
+
+ figure {
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 20px;
+} 
+
+figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
+}
+
+
+.readmore a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.move-right:hover{
+    
+    transition: all .5s;
+    transform : translateX(40px);
+}
+
+
+@media screen and (max-width:767px) {
+    .hover03{
+        /* margin: 10px 75px; */
+    }
+    figure{
+        height: 200px;
+    }
+  
+    
+}
