@@ -140,7 +140,7 @@ const Header = ({ children }) => {
                   aria-current="page"
                   href="#"
                 >
-                  <p className="d-flex flex-column menu-text">
+                  <p className="d-flex flex-column menu-text " >
                     <span>
                       Career<i class="fa-solid fa-angle-down"></i>
                     </span>
@@ -168,7 +168,7 @@ const Header = ({ children }) => {
                 </NavLink>
               </li>
 
-              <li className="nav-item mx-0">
+              <li className="nav-item ">
                 <NavLink
                   to="/contact"
                   className="nav-link homeclass"

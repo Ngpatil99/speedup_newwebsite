@@ -95,8 +95,6 @@
 
 }
 
-
-
 .nav-item:hover .dropdown-list:hover .menu-text {
     color: red;
 }
