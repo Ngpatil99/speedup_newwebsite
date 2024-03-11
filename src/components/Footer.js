@@ -2,9 +2,9 @@ import React from "react";
 import "./Footer.css";
 import { CiInstagram } from "react-icons/ci";
 import { CiFacebook } from "react-icons/ci";
-import { CiTwitter } from "react-icons/ci";
 import { CiYoutube } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -26,12 +26,12 @@ function Footer() {
               <div className="py-4">
                 <h4> We are here</h4>
                 <p>
-                  {" "}
+                 
                   Speedup Infotech, 3rd Floor, 1204/16, DNG House, Avenir
                   Building, Jangali Maharaj Rd, opposite Bal Gandharv Police
                   Station, beside Shree Gajanan Maharaj Temple, Shivajinagar,
                   Pune, Maharashtra 411004
-                </p>{" "}
+                </p>
                 <h5 className="text-danger">+91 -9766439090</h5>
               </div>
             </div>
@@ -39,25 +39,21 @@ function Footer() {
               <h5 className="me-4">Services</h5>
               <div className="py-5 services-link">
                 <p>
-                  <a href="#">Logo Design</a>
+                  <NavLink to={"logodesign"}>Logo Design</NavLink>
                 </p>
                 <p>
-                  {" "}
-                  <a href="#">Website Development Apppcation </a>
-                </p>{" "}
-                <p>
-                  {" "}
-                  <a href="#">Android Apppcation </a>
+                 
+                  <NavLink to={"websitedev"}>Website Development Apppcation </NavLink>
                 </p>
                 <p>
-                  <a href="#">ios Apppcation </a>
+                  <NavLink to={"androidios"}>Android Apppcation </NavLink>
                 </p>
+                
                 <p>
-                  {" "}
-                  <a href="#">IT Staffing </a>
-                </p>{" "}
+                  <NavLink to={"itstaffing"} href="#">IT Staffing </NavLink>
+                </p>
               </div>
-            </div>{" "}
+            </div>
             <div className="col-lg-2 col-md-2 col-sm-12 ">
               <h5 className="">Company</h5>
               <div className="py-5 services-link">
@@ -66,7 +62,7 @@ function Footer() {
                 <p><a href="#">Hire From Us</a></p>
                 <p><a href="#">Careers</a></p>
               </div>
-            </div>{" "}
+            </div>
             <div className="col-lg-3 col-md-2 col-sm-12">
               <h5>Courses</h5>
               <div className="py-5 services-link">
@@ -97,7 +93,7 @@ function Footer() {
                     href="https://www.facebook.com/speedupinfotech?mibextid=ZbWKwL"
                     target="_blank"
                   >
-                    {" "}
+                   
                     <CiFacebook url="" class="social-button twitter" />
                   </a>
 
@@ -117,7 +113,7 @@ function Footer() {
                     href="https://www.instagram.com/speedupinfotech?igsh=MzRlODBiNWFlZA=="
                     target="_blank"
                   >
-                    {" "}
+                   
                     <CiInstagram class="social-button instagram" />
                   </a>
                 </div>
@@ -129,13 +125,13 @@ function Footer() {
                     target="_blank"
                     rel="noopener"
                   >
-                    {" "}
+                   
                     <img
                       src="./images/whatsapp.svg"
                       class="img-fluid"
                       alt=" Technologies WhatsApp"
-                      width="50px"
-                      height="50px"
+                      width="40px"
+                      height="40px"
                     />
                   </a>
                 </div>
@@ -147,8 +143,8 @@ function Footer() {
                   >
                     <img
                       src="https://fortunecloudindia.com/assets/img/icons/call_new.png"
-                      height="50px"
-                      width="50px"
+                      height="40px"
+                      width="40px"
                       alt="float img "
                       id="floating2_img"
                     />

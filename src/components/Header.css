@@ -56,6 +56,8 @@
     color: white;
 }
 
+
+
 .homeclass:hover .menu-text {
     color: red;
     top: -22px;
@@ -85,11 +87,10 @@
     opacity: 0;
 }
 
-
 .nav-item:hover .dropdown-list {
     height: 200px;
-    background-color: white;
-    color: red;
+    background-color: #1e2636;
+    color: red !important;
     opacity: 1;
     border-radius: 0px;
     padding: 0px;
@@ -340,7 +341,12 @@
         margin-top: 0px;
     }
     
-
+    .servicesmenu {
+        margin: 0px 0px;
+    }
+    .contactmenu {
+        margin: 0px 0px;
+    }
     .shape:first-child {
         background: linear-gradient(#1845ad, #23a2f6);
         left: 37px;

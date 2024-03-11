@@ -26,7 +26,8 @@ import Footer from "./components/Footer";
 import Websitedev from "./components/Websitedev";
 import Logodesign from "./components/Logodesign";
 import Andriod from "./components/Andriod";
-
+import Itstaffing from "./components/Itstaffing";
+import Scrolltop from "./components/Scrolltop";
 function App() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -37,14 +38,8 @@ function App() {
       <div className="mouse-cursor style4"></div>
       <Router>
         <Routes>
-          <Route
-            path="/admin/*"
-            element={<AdminRoutes />}
-          />
-          <Route
-            path="*"
-            element={<UserRoutes />}
-          />
+          <Route path="/admin/*" element={<AdminRoutes />} />
+          <Route path="*" element={<UserRoutes />} />
         </Routes>
       </Router>
     </div>
@@ -55,13 +50,15 @@ function UserRoutes() {
   return (
     <>
       <Header />
+      <Scrolltop/>
       <Routes>
         <Route path="/" element={<Slider />} />
         <Route path="about" element={<Aboutus />} />
         <Route path="services" element={<Services />} />
-        <Route path="websitedev" element={<Websitedev/>}/>
-        <Route path="logodesign" element={<Logodesign/>}/>
-<Route path="androidios" element={<Andriod/>}/>
+        <Route path="websitedev" element={<Websitedev />} />
+        <Route path="logodesign" element={<Logodesign />} />
+        <Route path="androidios" element={<Andriod />} />
+        <Route path="itstaffing" element={<Itstaffing />} />
         <Route path="career" element={<Career />} />
         <Route path="blog" element={<Blog />} />
         <Route path="contact" element={<Contact />} />
@@ -77,7 +74,7 @@ function AdminRoutes() {
   return (
     <Routes>
       <Route path="/" element={<AdminLogin />} />
-      <Route path="adminmenu" element={<AdminMenu/>}/>
+      <Route path="adminmenu" element={<AdminMenu />} />
       <Route path="forgotpassword" element={<ForegtPassword />} />
       <Route path="users" element={<Users />} />
       <Route path="careerblock" element={<CareerBlock />} />

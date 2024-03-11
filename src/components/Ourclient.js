@@ -3,6 +3,7 @@ import "./Ourclient.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Carousel, } from "react-responsive-carousel";
 function Ourclient() {
   const settings = {
     dots: true,
@@ -14,7 +15,9 @@ function Ourclient() {
     autoplaySpeed: 3000,
   };
 
+
   return (
+
     <div className="main-client">
       <h5>Companies where our Engineers are Placed..!</h5>
 
@@ -69,7 +72,6 @@ function Ourclient() {
        
       </Slider> 
 
-      
     </div>
   );
 }

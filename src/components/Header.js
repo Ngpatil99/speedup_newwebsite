@@ -106,12 +106,12 @@ const Header = ({ children }) => {
                       </NavLink>
                     </li>
                     <li className="nav-link">
-                      <a href="#" className="nav-link homeclass fw-bold">
+                      <NavLink to={"itstaffing"} className="nav-link homeclass fw-bold">
                         <p className="d-flex flex-column menu-text">
                           <span>IT Stafing</span>
                           <span>IT Stafing</span>
                         </p>
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="nav-link">
                       <a href="#" className="nav-link homeclass fw-bold">
