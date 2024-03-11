@@ -61,7 +61,7 @@ function Ourmentors() {
                   />
                 </div>
                 <div className="benefit-link col-12 p-3 text-start rounded-4">
-                  <h3 className="text-light">Shivani Wankhede</h3>
+                  <h3 className="text-light">Shivani Waghmare</h3>
                   <p className="text-light">Software Developer</p>
 
                   <p className=" text-light">
