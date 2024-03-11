@@ -160,6 +160,7 @@ const Header = ({ children }) => {
                   </p>
                 </NavLink>
               </li>
+         
 
               <li className="nav-item  contactmenu">
                 <NavLink
@@ -174,6 +175,23 @@ const Header = ({ children }) => {
                     </span>
                     <span>
                       Contact Us<i class="fa-solid fa-angle-down"></i>
+                    </span>
+                  </p>
+                </NavLink>
+              </li>
+              <li className="nav-item ms-5">
+                <NavLink
+                  to="/review"
+                  className="nav-link homeclass"
+                  aria-current="page"
+                  href="#"
+                >
+                  <p className="d-flex flex-column menu-text">
+                    <span>
+                     Review<i class="fa-solid fa-angle-down"></i>
+                    </span>
+                    <span>
+                     Review<i class="fa-solid fa-angle-down"></i>
                     </span>
                   </p>
                 </NavLink>
@@ -207,6 +225,17 @@ const Header = ({ children }) => {
         </div>
         
       </nav>
+      <div className="container-fluid bg-transparant"> 
+      <div className="row">
+        <div className="col-lg-6 col-md-6 col-sm-12">
+          <h5 className="text-primary fw-bold text-center p-2 blink-soft">Upcomming Batch</h5>
+        </div>
+        <div className="col-lg-6 col-md-6 col-sm-12 p-2  blink-soft"><h5 className="text-success text-center fw-bold">Quick Enquiry</h5></div>
+
+      </div>
+      
+      
+      </div>
     </>
   );
 };

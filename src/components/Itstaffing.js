@@ -9,7 +9,7 @@ function Itstaffing() {
             <h2 className="text-center text-danger">IT Staffing</h2>
 
             <h3 className="text-center">
-              Welcome to SpeedUpInfotech Web Development Services
+              Welcome to SpeedUpInfotech IT Staffing Services
             </h3>
 
             <p>

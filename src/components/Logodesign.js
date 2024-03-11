@@ -10,7 +10,7 @@ function Logodesign() {
 
 <h2 className='text-center text-danger'>Logo Developmnet</h2>
 
-  <h3 className='text-center'>Welcome to SpeedUpInfotech Web Development Services</h3>
+  <h3 className='text-center'>Welcome to SpeedUpInfotech Logo Design Services</h3>
 
 <p>At speedupinfotech, we specialize in crafting tailored web solutions that cater to your unique business needs. With our expertise in web development, we ensure that your online presence stands out, attracts visitors, and converts them into loyal customers.</p>
 <h3 className='text-center'>Our Services</h3>

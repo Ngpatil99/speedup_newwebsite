@@ -28,6 +28,7 @@ import Logodesign from "./components/Logodesign";
 import Andriod from "./components/Andriod";
 import Itstaffing from "./components/Itstaffing";
 import Scrolltop from "./components/Scrolltop";
+import Review from "./components/Review";
 function App() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -60,6 +61,8 @@ function UserRoutes() {
         <Route path="androidios" element={<Andriod />} />
         <Route path="itstaffing" element={<Itstaffing />} />
         <Route path="career" element={<Career />} />
+        <Route path="review" element={<Review />} />
+
         <Route path="blog" element={<Blog />} />
         <Route path="contact" element={<Contact />} />
         <Route path="blogdetail" element={<BlogDetail />} />

@@ -1,5 +1,5 @@
 .slider-img-1 {
-    height: 520px;
+    height: 500px;
     width: 100%;
     background-image: url(../../public/images/slider-1.jpg);
     background-position: center center;
@@ -10,7 +10,7 @@
 }
 
 .slider-img-2 {
-    height: 520px;
+    height: 500px;
     width: 100%;
     background-image: url(../../public/images/slider-2.jpg);
     background-position: center center;
@@ -21,7 +21,7 @@
 }
 
 .slider-img-3 {
-    height: 520px;
+    height: 500px;
     width: 100%;
     background-image: url(../../public/images/slider-3.png);
     background-position: center center;

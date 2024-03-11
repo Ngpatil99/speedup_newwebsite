@@ -487,3 +487,15 @@
         transform: translateY(100%);
     }
 }
+
+
+
+ .blink-soft {
+    animation: blinker 1.5s linear infinite;
+  } 
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
