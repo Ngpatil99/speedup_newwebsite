@@ -1,6 +1,6 @@
 import React from 'react'
 import "./websitedev.css"
-function Websitedev() {
+function Logodesign() {
   return (
    
 
@@ -8,7 +8,7 @@ function Websitedev() {
   <div className='row'>
   <div className=' subpage'>
 
-<h2 className='text-center text-danger'>Website developements</h2>
+<h2 className='text-center text-danger'>Logo Developmnet</h2>
 
   <h3 className='text-center'>Welcome to SpeedUpInfotech Web Development Services</h3>
 
@@ -36,4 +36,4 @@ function Websitedev() {
   )
 }
 
-export default Websitedev
+export default Logodesign;

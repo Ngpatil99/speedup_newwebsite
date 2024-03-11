@@ -24,15 +24,15 @@ body {
   }
   
   /* Style for NavLink */
-  .nav-link {
+  .navmenu {
     display: block;
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 10px;
   }
   /* Hover effect */
   .navmenu:hover {
-    background-color: #333; 
+    background-color: #333 !important; 
   } 
   
   .welcome-message {

@@ -82,7 +82,7 @@ const Header = ({ children }) => {
                 <div className="dropdown-list shadow-lg pe-5 ps-2">
                   <ul>
                     <li className="nav-link">
-                      <NavLink to="/websitedev" className="nav-link homeclass fw-bold">
+                      <NavLink to={"/logodesign"} className="nav-link homeclass fw-bold">
                         <p className="d-flex flex-column menu-text">
                           <span>Logo Design</span>
                           <span>Logo Design</span>
@@ -90,20 +90,20 @@ const Header = ({ children }) => {
                       </NavLink>
                     </li>
                     <li className="nav-link">
-                      <a href="#" className="nav-link homeclass fw-bold">
+                      <NavLink to={"/websitedev"} className="nav-link homeclass fw-bold">
                         <p className="d-flex flex-column menu-text">
                           <span>Website Development</span>
                           <span>Website Development</span>
                         </p>
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="nav-link">
-                      <a href="#" className="nav-link homeclass fw-bold">
+                      <NavLink to={"androidios"} className="nav-link homeclass fw-bold">
                         <p className="d-flex flex-column menu-text">
                           <span>Android IOS Application</span>
                           <span>Android IOS Application</span>
                         </p>
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="nav-link">
                       <a href="#" className="nav-link homeclass fw-bold">
@@ -121,14 +121,7 @@ const Header = ({ children }) => {
                         </p>
                       </a>
                     </li>
-                    <li className="nav-link">
-                      <a href="#" className="nav-link homeclass fw-bold">
-                        <p className="d-flex flex-column menu-text">
-                          <span>SEO Marketing</span>
-                          <span>SEO Marketing</span>
-                        </p>
-                      </a>
-                    </li>
+                   
                   </ul>
                 </div>
               </li>
@@ -168,7 +161,7 @@ const Header = ({ children }) => {
                 </NavLink>
               </li>
 
-              <li className="nav-item ">
+              <li className="nav-item  contactmenu">
                 <NavLink
                   to="/contact"
                   className="nav-link homeclass"

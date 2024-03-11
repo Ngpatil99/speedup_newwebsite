@@ -14,14 +14,11 @@ function Ourclient() {
     autoplaySpeed: 3000,
   };
 
-  
-
   return (
     <div className="main-client">
       <h5>Companies where our Engineers are Placed..!</h5>
 
-
-      <Slider {...settings} className="slider" style={{ overflow: "hidden" }}>
+       <Slider {...settings} className="slider" style={{ overflow: "hidden" }}>
         <div className="d-flex">
           <img src="./images/logo01.png" />
           <img src="./images/logo02.png" />
@@ -70,10 +67,8 @@ function Ourclient() {
 
         </div>
        
-      </Slider>
+      </Slider> 
 
-
-      
       
     </div>
   );

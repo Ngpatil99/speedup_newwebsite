@@ -24,6 +24,8 @@ import CareerBlock from "./components/Admin/CareerBlock";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Websitedev from "./components/Websitedev";
+import Logodesign from "./components/Logodesign";
+import Andriod from "./components/Andriod";
 
 function App() {
   useEffect(() => {
@@ -58,6 +60,8 @@ function UserRoutes() {
         <Route path="about" element={<Aboutus />} />
         <Route path="services" element={<Services />} />
         <Route path="websitedev" element={<Websitedev/>}/>
+        <Route path="logodesign" element={<Logodesign/>}/>
+<Route path="androidios" element={<Andriod/>}/>
         <Route path="career" element={<Career />} />
         <Route path="blog" element={<Blog />} />
         <Route path="contact" element={<Contact />} />

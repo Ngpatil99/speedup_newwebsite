@@ -49,8 +49,7 @@
 
 .homeclass {
     color: white;
-    padding: 0px 10px !important;
-}
+    padding: 0px 0px !important;}
 
 
 .menu-text {
@@ -79,16 +78,18 @@
     height: 0px;
     left: -20px;
     top: 45px;
-    /* border-radius: 15px; */
     background-color: rgb(120, 5, 5);
     transition: all 2s;
     overflow: hidden;
+    color: red !important;
     opacity: 0;
 }
 
+
 .nav-item:hover .dropdown-list {
-    height: 300px;
+    height: 200px;
     background-color: white;
+    color: red;
     opacity: 1;
     border-radius: 0px;
     padding: 0px;
@@ -96,7 +97,7 @@
 }
 
 .nav-item:hover .dropdown-list:hover .menu-text {
-    color: red;
+    color: red !important;
 }
 
 .nav-mail {
@@ -169,6 +170,9 @@
     width: 100%;
 }
 
+.contactmenu{
+    margin: 0px -21px;
+}
 /* enqury form */
 
 
