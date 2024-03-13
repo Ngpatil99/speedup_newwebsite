@@ -21,11 +21,10 @@
     padding: 10px;
     height: 70px;
     margin: 0px 20px;
-    /* width: 85%; */
     aspect-ratio: 3/2;
-    opacity: 0.5;
+    opacity: 0.8;
     transition: 0.3s;
-    filter: grayscale(100);
+    /* filter: grayscale(100); */
     
 
 

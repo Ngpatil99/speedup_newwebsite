@@ -3,9 +3,7 @@ import "./websitedev.css";
 function Websitedev() {
   return (
     <div className="container-fluid">
-      <div className="row">
-          <img src="./images/webdesign.jpeg" className="minislide"/>
-           </div>
+    
       <div className="row py-5">
         <div className=" subpage">
           <h2 className="text-center text-danger">Website developements</h2>
